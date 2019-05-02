@@ -1,0 +1,29 @@
+{
+  "name": "news-that-s-fit-to-scrape",
+  "version": "1.0.0",
+  "description": "In this assignment, I've created a web app that lets Barcelona fans view news articles with an image of it as well as the comments on the teams latest news.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dianisssc/News-That-s-Fit-To-Scrape.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dianisssc/News-That-s-Fit-To-Scrape/issues"
+  },
+  "homepage": "https://github.com/dianisssc/News-That-s-Fit-To-Scrape#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "logger": "0.0.1",
+    "mongoose": "^5.5.5",
+    "morgan": "^1.9.1"
+  }
+}
